@@ -1,0 +1,18 @@
+.format-link {
+  .post-link {
+    background-color: #f6f6f6;
+    text-align: center;
+    position: relative;
+    padding: 50px 30px 40px;
+    i {
+      position: absolute;
+      right: 0;
+      background-color: var(--color-primary);
+      top: 0;
+      padding: 20px;
+      color: rgba(0,0,0,0.3);
+      border-bottom-left-radius: 100%;
+      font-size: 20px;
+    }
+  }
+}

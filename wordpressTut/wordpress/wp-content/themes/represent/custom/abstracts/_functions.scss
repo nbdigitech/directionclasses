@@ -1,0 +1,7 @@
+/* Functions */
+
+// 1 - borderRadius Function
+
+@function borderRadius($val : 2, $unite : px) {
+    @return $val#{$unite};
+}

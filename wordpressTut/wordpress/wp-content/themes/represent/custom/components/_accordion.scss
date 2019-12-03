@@ -1,0 +1,50 @@
+//----style Classic ----
+.vc_tta-container {
+  .vc_tta-accordion {
+    //----class style-
+    &.vc_tta-style-classic {
+      //----class color ----
+
+        .vc_tta-panels-container {
+          .vc_tta-panels {
+            .vc_tta-panel {
+              margin-bottom: 5px;
+
+              //---- heading ---
+              .vc_tta-panel-heading {
+                border: none;
+                border-radius: 0;
+                background: #DFDFDF;
+                .vc_tta-panel-title{
+                  a {
+                    color: #000;
+                    font-size: 16px;
+                  }
+                }
+              }
+              &.vc_active {
+                .vc_tta-panel-heading {
+                  background-color: var(--color-primary);
+                  .vc_tta-panel-title{
+                      a {
+                        color: #fff;
+                        .vc_tta-controls-icon:before {
+                          color: #fff !important;
+                        }
+                      }
+                  }
+                }
+               }
+              //----- body  ----
+              .vc_tta-panel-body {
+                border: none;
+                background: none;
+                padding: 25px 20px;
+              }
+            }
+          }
+        }
+
+    }
+  }
+}

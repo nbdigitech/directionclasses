@@ -1,0 +1,34 @@
+[26-Apr-2019 08:23:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 4
+[26-Apr-2019 08:25:15 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home1/direceye/public_html/AdminPanel/login.php on line 82
+[26-Apr-2019 08:25:15 America/Chicago] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home1/direceye/public_html/AdminPanel/login.php on line 83
+[27-Apr-2019 07:50:10 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home1/direceye/public_html/AdminPanel/login.php on line 98
+[27-Apr-2019 07:55:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function session_state() in /home1/direceye/public_html/AdminPanel/login.php:56
+Stack trace:
+#0 {main}
+  thrown in /home1/direceye/public_html/AdminPanel/login.php on line 56
+[27-Apr-2019 07:57:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function session_state() in /home1/direceye/public_html/AdminPanel/login.php:56
+Stack trace:
+#0 {main}
+  thrown in /home1/direceye/public_html/AdminPanel/login.php on line 56
+[27-Apr-2019 07:58:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 07:58:07 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 07:58:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 07:58:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 07:59:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 07:59:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 07:59:47 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 07:59:47 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 07:59:56 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 07:59:56 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 08:00:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 08:00:13 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home1/direceye/public_html/AdminPanel/index.php:1) in /home1/direceye/public_html/AdminPanel/index.php on line 3
+[27-Apr-2019 08:03:00 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/direceye/public_html/AdminPanel/index.php on line 215
+[27-Apr-2019 08:16:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function session_state() in /home1/direceye/public_html/AdminPanel/contact.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/direceye/public_html/AdminPanel/contact.php on line 2
+[27-Apr-2019 08:19:01 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home1/direceye/public_html/AdminPanel/logout.php on line 2
+[27-Apr-2019 08:20:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function start_session() in /home1/direceye/public_html/AdminPanel/logout.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/direceye/public_html/AdminPanel/logout.php on line 1

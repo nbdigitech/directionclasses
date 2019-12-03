@@ -1,0 +1,38 @@
+.represent-post-image{
+    display: block;
+    margin-bottom: 20px;
+}
+.represent-post-title-area {
+    a{
+        font-weight: 600;
+    color: #0f1a41;
+    font-size: 18px;
+    &:hover{
+        color: var(--color-primary);
+    }
+    }
+}
+
+.search-result article {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    padding-bottom: 30px;
+    margin: 0 0 30px 0;
+    border-bottom: 1px solid #edeff2;
+}
+
+.no-result {
+    input{
+    width: 300px;}
+    .try{
+        margin-bottom: 28px;
+            }
+}
+
+h2.sorry {
+    color: #151515;
+    font-weight: 600;
+    margin-bottom: 22px;
+}

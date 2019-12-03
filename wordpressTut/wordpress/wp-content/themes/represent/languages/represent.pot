@@ -1,0 +1,1473 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-12 22:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: 404.php:9 admin/theme-functions.php:68
+msgid "404"
+msgstr ""
+
+#: 404.php:10
+msgid "PAGE NOT FOUND"
+msgstr ""
+
+#: 404.php:12
+msgid ""
+"We’re sorry, the page you have looked for does not exist in our database! "
+"Maybe go to our "
+msgstr ""
+
+#: 404.php:14
+msgid "home page"
+msgstr ""
+
+#: 404.php:14
+msgid "or try to use a"
+msgstr ""
+
+#: 404.php:15
+msgid "search?"
+msgstr ""
+
+#: 404.php:18
+msgid "Back to home"
+msgstr ""
+
+#: comments.php:14
+msgid "Reply"
+msgstr ""
+
+#: comments.php:34
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:58
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: comments.php:61
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: comments.php:65
+msgid "ago"
+msgstr ""
+
+#: comments.php:90 content-audio.php:17 content-gallery.php:35
+#: content-video.php:14 content.php:16
+msgid "No responses"
+msgstr ""
+
+#: comments.php:90
+msgid "One comment"
+msgstr ""
+
+#: comments.php:90 content-audio.php:17 content-gallery.php:35
+#: content-video.php:14 content.php:16
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:102
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:104
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: comments.php:105
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: comments.php:112
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:119
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:120
+msgid "Your Email"
+msgstr ""
+
+#: comments.php:121
+msgid "Your Website"
+msgstr ""
+
+#: comments.php:125
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:128
+msgid "Comment"
+msgstr ""
+
+#: content-audio.php:15 content-gallery.php:33 content-video.php:12
+#: content.php:14 single-portfolio.php:22 single.php:23
+msgid "By"
+msgstr ""
+
+#: content-audio.php:17 content-gallery.php:35 content-video.php:14
+#: content.php:16
+msgid "One Comment"
+msgstr ""
+
+#: content-audio.php:24 content-gallery.php:41 content-video.php:21
+#: content.php:23
+msgid "Read More"
+msgstr ""
+
+#: footer.php:35
+msgid "Copyright PixelWay 2019"
+msgstr ""
+
+#: functions.php:12
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:13
+msgid "Footer Navigation"
+msgstr ""
+
+#: functions.php:59
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:68
+msgid "Footer 1rst Columns"
+msgstr ""
+
+#: functions.php:77
+msgid "Footer 2se Columns"
+msgstr ""
+
+#: functions.php:86
+msgid "Footer 3thr Columns"
+msgstr ""
+
+#: functions.php:95
+msgid "Footer 4 Columns"
+msgstr ""
+
+#: header.php:13
+msgid "Loading..."
+msgstr ""
+
+#: index.php:32
+msgid "prev"
+msgstr ""
+
+#: index.php:33
+msgid "Next"
+msgstr ""
+
+#: search.php:15
+msgid "the title"
+msgstr ""
+
+#: search.php:38
+msgid "Sorry, but nothing matched your search terms."
+msgstr ""
+
+#: search.php:41
+msgid "Please try again with some different keywords."
+msgstr ""
+
+#: search.php:46
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: searchform.php:9
+msgid "Type & hit enter..."
+msgstr ""
+
+#: single-portfolio.php:39
+msgid "Pages:"
+msgstr ""
+
+#: admin/theme-functions.php:36
+msgid "Please, Create your Menu frome appearance > menu"
+msgstr ""
+
+#: admin/theme-functions.php:46
+msgid "Recent Posts"
+msgstr ""
+
+#: admin/theme-functions.php:47 admin/vc/shortcodesetting/blog.php:9
+msgid "Blog"
+msgstr ""
+
+#: admin/theme-functions.php:66
+msgid "Search"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:393
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:920
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2626
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:394
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:395
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:1027
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:1214
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3602
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3602
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: admin/plugins/tgm/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/plugins/tgm/tgm-init.php:47
+msgid "contact form7"
+msgstr ""
+
+#: admin/vc/shortcodesetting/blog.php:16
+#: admin/vc/shortcodesetting/portfolio.php:11
+msgid "Itemperpage"
+msgstr ""
+
+#: admin/vc/shortcodesetting/blog.php:19
+#: admin/vc/shortcodesetting/portfolio.php:14
+#: admin/vc/shortcodesetting/testimonail.php:14
+msgid "Numer of Item in page"
+msgstr ""
+
+#: admin/vc/shortcodesetting/blog.php:23
+#: admin/vc/shortcodesetting/clients_logo.php:41
+#: admin/vc/shortcodesetting/portfolio.php:28
+msgid "Columns"
+msgstr ""
+
+#: admin/vc/shortcodesetting/blog.php:26
+#: admin/vc/shortcodesetting/portfolio.php:31
+msgid "Number Columns"
+msgstr ""
+
+#: admin/vc/shortcodesetting/blog.php:30
+msgid "Show Post Info"
+msgstr ""
+
+#: admin/vc/shortcodesetting/button.php:3
+msgid "Button"
+msgstr ""
+
+#: admin/vc/shortcodesetting/button.php:10
+msgid "Url & Title Button"
+msgstr ""
+
+#: admin/vc/shortcodesetting/button.php:16
+msgid "Size"
+msgstr ""
+
+#: admin/vc/shortcodesetting/button.php:28
+#: admin/vc/shortcodesetting/list.php:12 admin/vc/shortcodesetting/team.php:15
+#: admin/vc/shortcodesetting/timeline.php:13
+#: admin/vc/shortcodesetting/vc_row.php:4
+msgid "Style"
+msgstr ""
+
+#: admin/vc/shortcodesetting/clients_logo.php:6
+msgid "Clients Logo"
+msgstr ""
+
+#: admin/vc/shortcodesetting/clients_logo.php:15
+msgid "Layout"
+msgstr ""
+
+#: admin/vc/shortcodesetting/clients_logo.php:17
+#: admin/vc/shortcodesetting/clients_logo.php:27
+#: admin/vc/shortcodesetting/clients_logo.php:33
+#: admin/vc/shortcodesetting/pricing_table.php:17
+#: admin/vc/shortcodesetting/team.php:17 admin/vc/shortcodesetting/team.php:27
+msgid "Enter text used as title"
+msgstr ""
+
+#: admin/vc/shortcodesetting/clients_logo.php:25
+msgid "Logos"
+msgstr ""
+
+#: admin/vc/shortcodesetting/clients_logo.php:31
+msgid "Logo to show"
+msgstr ""
+
+#: admin/vc/shortcodesetting/clients_logo.php:43
+msgid "Enter Columns number"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:3
+msgid "Count Up"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:10
+#: admin/vc/shortcodesetting/iconplustext.php:31
+msgid "Number"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:13
+msgid "Count up Number (ex. 2154)"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:18
+msgid "Number Color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:20
+#: admin/vc/shortcodesetting/countup.php:35
+#: admin/vc/shortcodesetting/countup.php:49
+#: admin/vc/shortcodesetting/section_title.php:36
+#: admin/vc/shortcodesetting/section_title.php:50
+msgid "Enter text color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:25
+#: admin/vc/shortcodesetting/pricing_table.php:15
+#: admin/vc/shortcodesetting/section_title.php:27
+#: admin/vc/shortcodesetting/timeline.php:45
+msgid "Title"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:28
+msgid "Count up Title"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:33
+msgid "Title Color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:40
+#: admin/vc/shortcodesetting/iconplustext.php:56
+#: admin/vc/shortcodesetting/timeline.php:52
+msgid "Description"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:43
+msgid "Give discription to count up number"
+msgstr ""
+
+#: admin/vc/shortcodesetting/countup.php:47
+msgid "Description Text Color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:3
+msgid "Icon plus text"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:10
+msgid "Icon / Image"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:12
+#: admin/vc/shortcodesetting/iconplustext.php:23
+#: admin/vc/shortcodesetting/iconplustext.php:33
+msgid "chhose your icon frome fontawsome liste"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:21
+msgid "Image"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:41
+#: admin/vc/shortcodesetting/timeline.php:31
+msgid "Titel"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:44
+msgid "Give Title"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:49
+msgid "Titel text color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:51
+msgid "Give Title color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:59
+msgid "Give discription Text"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:64
+#: admin/vc/shortcodesetting/iconplustext.php:90
+msgid "Description Text color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:66
+#: admin/vc/shortcodesetting/iconplustext.php:86
+#: admin/vc/shortcodesetting/iconplustext.php:92
+msgid "Give discription Text Color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:72
+msgid "Icon Position"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:79
+msgid "Chose Icon Position"
+msgstr ""
+
+#: admin/vc/shortcodesetting/iconplustext.php:83
+msgid "Show read More button"
+msgstr ""
+
+#: admin/vc/shortcodesetting/list.php:3
+msgid "List"
+msgstr ""
+
+#: admin/vc/shortcodesetting/list.php:24
+#: admin/vc/shortcodesetting/progressbar.php:19
+#: admin/vc/shortcodesetting/timeline.php:22
+msgid "Values"
+msgstr ""
+
+#: admin/vc/shortcodesetting/list.php:26
+#: admin/vc/shortcodesetting/progressbar.php:21
+#: admin/vc/shortcodesetting/timeline.php:24
+msgid "Enter values for graph - value, title."
+msgstr ""
+
+#: admin/vc/shortcodesetting/list.php:29 admin/vc/shortcodesetting/list.php:33
+#: admin/vc/shortcodesetting/list.php:37 admin/vc/shortcodesetting/list.php:44
+msgid "List item"
+msgstr ""
+
+#: admin/vc/shortcodesetting/list.php:46
+msgid "Enter text."
+msgstr ""
+
+#: admin/vc/shortcodesetting/portfolio.php:4
+msgid "Portfolio"
+msgstr ""
+
+#: admin/vc/shortcodesetting/portfolio.php:18
+msgid "Portfolio Style"
+msgstr ""
+
+#: admin/vc/shortcodesetting/portfolio.php:24
+msgid "Chose your portfolio style "
+msgstr ""
+
+#: admin/vc/shortcodesetting/portfolio.php:39
+msgid "Show filter"
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:6
+msgid "Pricing Table"
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:21
+msgid "Price"
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:23
+#: admin/vc/shortcodesetting/team.php:33
+msgid "Enter text used as Price"
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:27
+msgid "Price detail"
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:29
+#: admin/vc/shortcodesetting/pricing_table.php:60
+#: admin/vc/shortcodesetting/pricing_table.php:66
+#: admin/vc/shortcodesetting/team.php:39
+msgid "Enter text used as Price detail"
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:33
+#: admin/vc/shortcodesetting/pricing_table.php:49
+#: admin/vc/shortcodesetting/team.php:43
+msgid "Option"
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:51
+#: admin/vc/shortcodesetting/team.php:61 admin/vc/shortcodesetting/team.php:67
+msgid "Enter Line text."
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:58
+msgid "Button Name"
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:64
+msgid "Button Link"
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:70
+msgid "Featured Table"
+msgstr ""
+
+#: admin/vc/shortcodesetting/pricing_table.php:72
+msgid "Yes, please"
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:3
+msgid "Progress Bar"
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:13
+msgid "Widget title"
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:15
+msgid "Enter text used as widget title (Note: located above content element)."
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:24
+msgid "Development"
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:28
+msgid "Design"
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:32
+msgid "Marketing"
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:39
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/msvs.py:2946
+msgid "Label"
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:41
+#: admin/vc/shortcodesetting/timeline.php:40
+msgid "Enter text used as title of bar."
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:46
+msgid "Value"
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:48
+#: admin/vc/shortcodesetting/timeline.php:47
+#: admin/vc/shortcodesetting/timeline.php:54
+msgid "Enter value of bar."
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:55
+msgid "Units"
+msgstr ""
+
+#: admin/vc/shortcodesetting/progressbar.php:57
+msgid ""
+"Enter measurement units (Example: %, px, points, etc. Note: graph value and "
+"units will be appended to graph title)."
+msgstr ""
+
+#: admin/vc/shortcodesetting/section_title.php:7
+msgid "Section Title"
+msgstr ""
+
+#: admin/vc/shortcodesetting/section_title.php:16
+msgid "Title Align"
+msgstr ""
+
+#: admin/vc/shortcodesetting/section_title.php:18
+msgid "Chose Align"
+msgstr ""
+
+#: admin/vc/shortcodesetting/section_title.php:29
+msgid ""
+"Enter text used as title. add b/ to have a break and {your text} to get bold "
+"style"
+msgstr ""
+
+#: admin/vc/shortcodesetting/section_title.php:34
+msgid "Title Text Color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/section_title.php:41
+msgid "SubTitle"
+msgstr ""
+
+#: admin/vc/shortcodesetting/section_title.php:43
+msgid "Enter text used as subtitle"
+msgstr ""
+
+#: admin/vc/shortcodesetting/section_title.php:48
+msgid "Sub-Title text Color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/team.php:6
+msgid "Team"
+msgstr ""
+
+#: admin/vc/shortcodesetting/team.php:25
+msgid "Name"
+msgstr ""
+
+#: admin/vc/shortcodesetting/team.php:31
+msgid "Member Image"
+msgstr ""
+
+#: admin/vc/shortcodesetting/team.php:37
+msgid "Job"
+msgstr ""
+
+#: admin/vc/shortcodesetting/team.php:59
+msgid "Social Icon"
+msgstr ""
+
+#: admin/vc/shortcodesetting/team.php:65
+msgid "Social Link"
+msgstr ""
+
+#: admin/vc/shortcodesetting/testimonail.php:4
+msgid "Testimonail"
+msgstr ""
+
+#: admin/vc/shortcodesetting/testimonail.php:11
+msgid "Item to Display"
+msgstr ""
+
+#: admin/vc/shortcodesetting/testimonail.php:18
+msgid "Quote text color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/testimonail.php:20
+msgid "Chose Quote text color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/testimonail.php:24
+msgid "Quote Name text color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/testimonail.php:26
+msgid "Chose Name text color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/testimonail.php:30
+msgid "Quote Job text color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/testimonail.php:32
+msgid "Chose Job text color"
+msgstr ""
+
+#: admin/vc/shortcodesetting/timeline.php:3
+msgid "Timeline"
+msgstr ""
+
+#: admin/vc/shortcodesetting/timeline.php:27
+#: admin/vc/shortcodesetting/timeline.php:38
+msgid "Time"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/easy_xml.py:51
+msgid "\n"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/easy_xml.py:78
+msgid "<"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/easy_xml.py:84
+#, python-format
+msgid " %s=\"%s\""
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/easy_xml.py:87
+msgid ">"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/easy_xml.py:101
+#, python-format
+msgid "</%s>%s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/easy_xml.py:103
+#, python-format
+msgid "/>%s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/input.py:1837
+#: node_modules/node-gyp/gyp/pylib/gyp/input.py:1898
+#, python-format
+msgid "Cycle: %s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:358
+msgid "_MBCS"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:423
+msgid "/safeseh"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:473
+msgid "/FS"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:543
+#, python-format
+msgid "/DEF:\"%s\""
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:575
+msgid "/OUT:"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:578
+msgid "/PDB:"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:581
+msgid "/PGD:"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:604
+#, python-format
+msgid "/STACK:%s%s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:643
+msgid "/DYNAMICBASE"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:650
+msgid "/NXCOMPAT"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:692
+msgid "/MANIFESTUAC:NO"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:740
+msgid "/ALLOWISOLATION"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/msvs_emulation.py:785
+msgid "/I"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/ninja_syntax.py:72
+msgid "|"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/ninja_syntax.py:76
+msgid "||"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcodeproj_file.py:276
+#, python-format
+msgid "\\U%04x"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcodeproj_file.py:988
+msgid ".name"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcodeproj_file.py:999
+msgid ".path"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcodeproj_file.py:1066
+msgid "$("
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:481
+#, python-format
+msgid "-isysroot %s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:484
+msgid "-Wconstant-conversion"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:487
+msgid "-funsigned-char"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:490
+msgid "-fasm-blocks"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:494
+msgid "-mdynamic-no-pic"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:502
+msgid "-mpascal-strings"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:509
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:513
+msgid "-gdwarf-2"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:518
+msgid "-fstrict-aliasing"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:520
+msgid "-fno-strict-aliasing"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:523
+msgid "-fvisibility=hidden"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:526
+msgid "-Werror"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:529
+msgid "-Wnewline-eof"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:536
+msgid "-flto"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:559
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:822
+msgid "-arch "
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:563
+msgid "-msse3"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:566
+msgid "-mssse3"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:568
+msgid "-msse4.1"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:570
+msgid "-msse4.2"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:577
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:586
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:840
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:845
+msgid "-F"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:596
+msgid "-ansi"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:613
+#, python-format
+msgid "-std=%s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:618
+msgid "-fno-rtti"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:620
+msgid "-fno-exceptions"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:622
+msgid "-fvisibility-inlines-hidden"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:624
+msgid "-fno-threadsafe-statics"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:627
+msgid "-Wno-invalid-offsetof"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:647
+msgid "-fobjc-gc"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:649
+msgid "-fobjc-gc-only"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:653
+msgid "-fobjc-arc"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:658
+msgid "-Wobjc-missing-property-synthesis"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:678
+msgid "-fobjc-call-cxx-cdtors"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:790
+msgid "-Wl,-dead_strip"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:793
+msgid "-Wl,-prebind"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:803
+msgid "-isysroot "
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:806
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:825
+msgid "-L"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:809
+msgid "-Wl,-order_file "
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:829
+msgid "-install_name "
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:832
+msgid "-Wl,-rpath,"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:853
+msgid "-lpkstart"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:856
+msgid "/System/Library/PrivateFrameworks/PlugInKit.framework/PlugInKit"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:857
+msgid "-fapplication-extension"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:858
+msgid "-Xlinker -rpath -Xlinker @executable_path/../../Frameworks"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:950
+#, python-format
+msgid "echo STRIP\\(%s\\)"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:951
+#, python-format
+msgid "strip %s %s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:969
+#, python-format
+msgid "echo DSYMUTIL\\(%s\\)"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:970
+#, python-format
+msgid "dsymutil %s -o %s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/xcode_emulation.py:1618
+#, python-format
+msgid "echo POSTBUILD\\(%s\\) %s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/__init__.py:364
+msgid "USERPROFILE"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/analyzer.py:663
+msgid "all"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/android.py:450
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/make.py:982
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/make.py:1108
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/make.py:1150
+#, python-format
+msgid "$(%s)"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/cmake.py:376
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/cmake.py:377
+msgid "${"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/eclipse.py:223
+msgid "1"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/make.py:1279
+msgid "$(OBJS)"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/make.py:1501
+#, python-format
+msgid "-Wl,-rpath=\\$$ORIGIN/lib.%s/"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/make.py:1502
+#, python-format
+msgid "-Wl,-rpath-link=\\$(builddir)/lib.%s/"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/make.py:1530
+msgid "$(TARGET_POSTBUILDS_$(BUILDTYPE))"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/make.py:1994
+msgid "BUILDTYPE="
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/msvs.py:3109
+#, python-format
+msgid "%%(%s)"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/ninja.py:1181
+#, python-format
+msgid "-Wl,-rpath=\\$$ORIGIN/%s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/ninja.py:1182
+#, python-format
+msgid "-Wl,-rpath-link=%s"
+msgstr ""
+
+#: node_modules/node-gyp/gyp/pylib/gyp/generator/ninja.py:1415
+#, python-format
+msgid "export %s=%s;"
+msgstr ""
+
+#: parts/menu/mega-menu.php:41
+msgid "Mega Menu (classic)"
+msgstr ""
+
+#: parts/menu/nav.php:6
+msgid "Brand"
+msgstr ""

@@ -1,0 +1,45 @@
+@import "../scss/bootstrap";
+@import "abstracts/functions";
+@import "abstracts/variables";
+@import "abstracts/extends";
+@import "global";
+@import "bootstrap4-block-grid";
+
+// --------- Layouts -------
+@import "layouts/nav";
+@import "layouts/footer";
+@import "layouts/blog";
+@import "layouts/sidebar";
+@import "layouts/forms";
+@import "layouts/blog-gallery";
+@import "layouts/blog-link";
+@import "layouts/blog-quote";
+@import "layouts/comments";
+@import "layouts/404";
+@import "layouts/search";
+// -------- Components --------
+@import "components/text-with-icon";
+@import "components/titlebar";
+@import "components/call-to-action";
+@import "components/counters";
+@import "components/pagination";
+@import "components/skillbars";
+@import "components/pricing-table";
+@import "components/teams";
+@import "components/clients";
+@import "components/recentblog";
+@import "components/portfolio";
+@import "components/testimonials";
+@import "components/accordion";
+@import "components/tabs";
+@import "components/timeline";
+
+
+
+
+
+
+
+
+
+

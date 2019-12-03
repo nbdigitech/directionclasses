@@ -1,0 +1,136 @@
+.testimonials {
+    position: relative;
+
+    .gr-image {
+         @include media-breakpoint-only(xs) {display: none;}
+        position: absolute;
+            z-index: 1;
+        right: 0;
+        img{
+            max-height: 450px;
+        }
+
+
+    }
+}
+
+.item-testimonail {
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+
+    &:before {
+        content: "";
+        background: url(../images/quote.png) center (center / cover) no-repeat local;
+        width: 163px;
+        height: 120px;
+        position: absolute;
+        left: -2px;
+        top: 0px;
+    }
+
+    & > div > p {
+            padding-right: 40%;
+           
+
+        color: #afafaf;
+        font-size: 26px;
+        font-weight: 300;
+        line-height: 1.6em;
+        text-align: left;
+        margin-bottom: 30px;
+         @include media-breakpoint-only(xs) {padding-right: 0;
+            margin-bottom: 66px;}
+    }
+
+    img {
+        border-radius: 50% 50%;
+        float: left;
+        opacity: 0.5;
+    }
+
+    .client-details {
+        float: left;
+    }
+
+    h5 {
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+        color: #afafaf;
+        margin-top: 54px;
+        display: inline-block;
+        margin-left: 23px;
+    }
+
+    p.job-title {
+        font-size: 14px;
+        font-weight: 400;
+        color: #9e9e9e;
+        margin-left: 22px;
+    }
+}
+
+.testimonails-items {
+    margin: 50px 0;
+    @include media-breakpoint-only(xs) {margin-top: 0;}
+
+    .owl-prev, .owl-next {
+        font-size: 12px;
+        padding: 4px 18px;
+        border-radius: 22px;
+        background-color: transparent;
+        letter-spacing: 2px;
+        color: #fff;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+
+    .owl-prev {
+        position: absolute;
+        left: 26px;
+        bottom: -50px;
+        color: #A8A8A8;
+     
+    }
+
+    .owl-next {
+        position: absolute;
+        left: 90px;
+        bottom: -50px;
+        color: #A8A8A8;
+        
+    }
+}
+
+
+
+.testimonial-section {
+    background-color: var(--color-primary);
+
+    // Old browsers
+}
+
+// @media (max-width: 575.98px) { 
+//     .testimonials .gr-image{
+//         display: none;
+//     }
+
+//     .testimonails-items .owl-prev {
+
+//     right: unset;
+// }
+
+// .item-testimonail{
+
+
+
+//     p {
+//             padding-right: 0;
+  
+//     }
+
+//     }
+
+
+// }

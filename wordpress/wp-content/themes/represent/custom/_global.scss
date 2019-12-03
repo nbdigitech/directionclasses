@@ -1,0 +1,351 @@
+html{
+  overflow-y: scroll !important;
+  overflow-x: hidden;
+}
+body{
+	 font-family: var(--font-family-sans);
+	 color: var(--color-text-body-default);
+     -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+li > ol, li > ul, dl > dd {
+  margin-bottom:0;
+}
+li > p {
+  margin-bottom:0;
+}
+li > p+p {
+  margin-top:0.5em;
+}
+ol, ul {
+  padding-left:1.5em;
+}
+
+ol > li:first-child,
+ul > li:first-child {
+  margin-top: 0;
+}
+ol > li:last-child,
+ul > li:last-child {
+  margin-bottom: 0;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  outline: 0;
+}
+p  {
+ font-family: var(--font-family-sans);
+ color: var(--color-text-body-default);
+ font-size: 16px;
+ font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: var(--font-family-serif);
+}
+img, select {
+  max-width: 100%;
+  height: auto;
+}
+p, ul, ol, dl, blockquote, address {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+// select {
+// 	outline: none;
+//     background-color: #706f6f;
+//     border: none;
+//     padding: 10px 24px;
+//     border-radius: 21px;
+//     color: #fff;
+// }
+input[type="text"], input[type="number"], input[type="email"], input[type="url"], input[type="tel"], input[type="password"], input[type="search"], select, textarea, textarea.wp-editor-area {
+    -webkit-appearance: none;
+    outline: none;
+    resize: none;
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .order-sm-1 {
+    order: 2;
+  }
+}
+@media (min-width: 576px) and (max-width: 992px) {
+  .order-sm-2 {
+    order: 1;
+  }
+}
+
+select {
+	outline: none;
+  display: inline-block;
+  width: 100%;
+  height: $custom-select-height;
+  padding: $custom-select-padding-y ($custom-select-padding-x + $custom-select-indicator-padding) $custom-select-padding-y $custom-select-padding-x;
+  line-height: $custom-select-line-height;
+  color: $custom-select-color;
+  vertical-align: middle;
+  background: $custom-select-bg $custom-select-indicator no-repeat right $custom-select-padding-x center;
+  background-size: $custom-select-bg-size;
+  border: $custom-select-border-width solid $custom-select-border-color;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   appearance: none;
+  @if $enable-rounded {
+    border-radius: $custom-select-border-radius;
+  } @else {
+    border-radius: 0;
+  }
+  @include box-shadow($custom-select-box-shadow);
+  appearance: none;
+
+  &:focus {
+    border-color: transparent;
+    outline: 0;
+    
+
+    &::-ms-value {
+      // For visual consistency with other platforms/browsers,
+      // suppress the default white text on blue background highlight given to
+      // the selected option text when the (still closed) <select> receives focus
+      // in IE and (under certain conditions) Edge.
+      // See https://github.com/twbs/bootstrap/issues/19398.
+      color: $input-color;
+      background-color: $input-bg;
+    }
+  }
+
+  &[multiple],
+  &[size]:not([size="1"]) {
+    height: auto;
+    padding-right: $custom-select-padding-x;
+    background-image: none;
+  }
+
+  &:disabled {
+    color: $custom-select-disabled-color;
+    background-color: $custom-select-disabled-bg;
+  }
+
+  // Hides the default caret in IE11
+  &::-ms-expand {
+    opacity: 0;
+  }
+}
+.no-padding{
+	padding: 0 !important;
+}
+a{
+	color: #222;
+	&:hover{
+		color: var(--color-primary);
+	text-decoration: none;
+	}
+}
+
+.primarycolor{
+	color: var(--color-primary);
+	margin-bottom: 4px ;
+    display: inline-block;
+	&:hover{
+		color: #222222;
+		text-decoration: none;
+	}
+}
+.linked{
+	color: #222222;
+	border-bottom: 2px solid #222222;
+	padding-bottom: 4px;
+	position: relative;
+	-webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    transition: all 200ms;
+	&:after{
+	content: "";
+    width: 54px;
+    height: 12px;
+    position: absolute;
+    right: -80px;
+    top: 50%;
+    background: url(../images/arrow-right.svg) no-repeat left top;
+
+	}
+	&:hover{
+		color: var(--color-primary);
+		text-decoration: none;
+		border-bottom: 2px solid var(--color-primary);
+		&:after{
+			background: url(../images/arrow-right.svg) no-repeat left bottom;
+		}
+	}
+}
+.heading {
+	p{
+		color: var(--color-primary);
+		line-height: 1.6em}
+		h3{
+			margin-bottom: 38px;
+			&:after {
+                    content: "";
+                    display: block;
+                    width: 72px;
+                    height: 3px;
+                    background-color: var(--color-primary);
+                    position: relative;
+                    left: 0;
+                    margin-top: 25px;
+                }
+		}
+}
+.dark-section p{
+	color:var(--color-text-body-alt);
+}
+.team-section {
+	p{
+		color: var(--color-primary);
+	}
+	a{
+		color: #fff;
+		display: block;
+		margin-top: 24px;
+	}
+}
+#rev_slider_1_1 .tp-revslider-mainul{
+	 border-radius: 0 0 0 178px;
+	}   
+
+
+.btn-primary {
+	background-color: #333;
+	color: #ffffff;
+	&:hover{
+		  color: #fff;
+    background-color: var(--color-primary);
+	}
+  }
+  .btn-primary{
+  	border: none;
+  }
+
+  footer .footer-content .item ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;}
+
+  footer .footer-content .item  ul ul{
+  	    padding-left: 1.5em;
+  }
+   footer .footer-content .item  ul ul ul ul{
+  	    padding-left: 10px;
+  }
+
+  .tags{
+  	margin-top: 30px;
+  	margin-bottom: 10px;
+  	font-size: 0.9rem;
+  	a{
+  		color: #222;
+  		&:hover{
+  			color: var(--color-primary);
+  		}
+  		
+  	}
+  }
+
+  /*---------preloader----------*/
+.bg-preloader{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color:  #fff;
+    z-index: 99999;
+}
+.mask {
+    background-color:  #fff;
+    height: 100px;
+    left: 0;
+     top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+   
+    top:50%;
+    margin-top: -50px;
+    width: 200px;
+    line-height: 50%;
+    margin: 0 auto;
+    z-index: 99999;
+}
+/*.mask:before {
+    content: '';
+    background-color:  #fff;
+    bottom: 0;
+    height: 90%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 90%;
+    z-index: 99998;
+}*/
+.preloader{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #efefef;
+    position: relative;
+    vertical-align: middle;
+}
+.preloader:after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #484250;
+     -webkit-animation: spin 1s linear infinite;
+-moz-animation: spin 1s linear infinite;
+animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+from {
+        -webkit-transform: rotate(0deg); }
+to {
+        -webkit-transform: rotate(360deg); } }
+@-moz-keyframes spin {
+from {
+        -moz-transform: rotate(0deg); }
+to {
+        -moz-transform: rotate(360deg); } }
+@keyframes spin {
+from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg); }
+to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg); } }
+
+/*---------preloader ends here----------*/
+
+
+
+.alert {
+  p{
+    i{
+      margin-right: 10px;
+    }
+  }
+}

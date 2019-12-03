@@ -1,0 +1,1032 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Direction Classes</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 0px 0px;
+    margin: 8px 0;
+   
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #39B54A;
+    color: white;
+    padding: 4px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: static; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 70%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/index.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">FAQ</a></li>
+                    <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
+    
+                <p>Enroll yourself <a href='#0'>Down</a> for free demo classes</p>
+    
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                    </li>
+                </ul>
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Direction Classes</h3>
+
+                <h1>
+                     Are you looking for best IGCSE Academy ?<br><br>
+					  DC provide "Cambridge certified" faculties
+					  following international learning methodology.
+                     
+                    
+                </h1>
+
+                <div class="home-content__buttons">
+				
+                    <a href="https://www.youtube.com/watch?v=ADSSqsfAZBQ" class="btn btn--stroke">
+                        watch Video
+                    </a>
+                    <!--<a href="#about" class="smoothscroll btn btn--stroke">
+                        Register your self
+                    </a>-->
+					<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="btn btn--stroke">Register your self</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+     
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Name</b></label>
+      <input type="text" placeholder="Enter Name" name="uname" required>
+	
+      <label for="uname"><b>Email Id</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+	  
+	  
+      <label for="uname"><b>Mobile</b></label>
+      <input type="text" placeholder="Enter Mobile No." name="contact" required>
+
+      
+        
+		<!--<label for="psw"><b>Mobile No.</b></label>o
+      <input type="password" placeholder="Enter Mobile" name="psw" required>-->
+      
+	  <button type="submit">Register your self</button>
+      
+    </div>
+
+   
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+                </div>
+				
+
+
+            </div><br>
+			
+			
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">Direction Classes</h3>
+                <h1 class="display-1 display-1--light">7 out of 10 students uplifted from 60%-- >>> 90 % in grades - Not only in GRADES
+				but We at Direction Classes Focus on making you a better learner by Active learning,Practising HARD
+				and peer to peer discussions </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p>
+                 * IGCSE prepares students for further academic work including progression to AS Level and A Level study.<br> 
+				 * The International General Certificate of Secondary Education (IGCSE) is an English dialect educational modules offered to understudies to set them up for International Baccalaureate, A Level and BTEC Level 3 (which is prescribed for higher-level understudies).<br>
+				 * We have a team of well experienced and highly qualified Cambridge Certified  teachers who are dedicated to their profession.<br>
+				 * Board pattern sample papers.<br>
+				 * Complete school curriculum will be introduced and practiced, refining the children for the school exams.<br> 
+				 * Worksheets and notes will be provided relevant to the topics taught. 
+                </p><br>
+				<h3>!! Still Confused ? Attend a workshop and experience the unmatched teaching in the town !!</h3>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+                
+            <div class="col-block stats__col ">
+                <div class="stats__count">200</div>
+                <h5>Happy Students</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">30</div>
+                <h5>Active Courses</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">1000</div>
+                <h5>Test Completed</h5> <br>
+            </div>
+            <!--<div class="col-block stats__col">
+                <div class="stats__count">102</div>
+                <h5>Happy Clients</h5> 
+            </div> --><br>
+			
+        </div> <!-- end about-stats --> 
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Our Features</h3>
+                <h1 class="display-2">Better Grades, Better Learning Atmosphere, Test assingments and study material, Focussed and personal Attention on each student.</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-paint-brush"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Impact</h3>
+                    <p>We make you practice large amounts of material from your board in a short amount of time which impact on your grades quickly and efficiently.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Tailored Learning</h3>
+                    <p>Smart and well-designed courses designed according to your individual needs. Whether you need the extra boost for top grades or are really struggling , we can help you reach your goals.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-megaphone"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h2">Cambridge Certified Tutors</h3>
+                    <p>We have a team of well experienced and highly qualified teachers who are dedicated to their profession.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-earth"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Test Series (IGCSE specific)</h3>
+                    <p>Score more with us complete coverage of excellent Test Papers of designed according to your syllabus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Batch Of Five</h3>
+                    <p>To promote questioning and doubt free environment we prefer a batch of Five students.
+
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon"><i class="icon-lego-block"></i></div>
+                <div class="service-text">
+                    <h3 class="h2">Counselling sessions</h3>
+                    <p>Counseling offers an opportunity to consider issues that concern you, we provide you free counseling sessions to boost your confidence just before exams.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id='works' class="s-works">
+
+        <div class="intro-wrap">
+                
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">FAQ'S</h3>
+                    <h1 class="display-2 display-2--light">Find out answers for the frequently asked questions</h1><br>
+					<p style="color:white"> Why Direction Classes?<br>
+					All the teachers are well qualified, experienced and subject experts who are dedicated in overall development of 
+					a child. after the explanation lots of worksheet practice is given to the child which are chapter wise and 
+					sample paper solving is encouraged.<br><br>
+
+					What are our Previous Results?<br>
+					With the efforts of our students and dedicated teacher's we have provided highly satisfying results.<br><br>
+
+					What are our Methodology?<br>
+					Unique Techniques for fundamental clearing, focus on basics for the overall development of student,
+					Teaching through Digital aids, Live Examples sharing, Exhaustive test series and practice sessions 
+					for better results.<br><br>
+
+					How to Overcome Hesitation?<br>
+					We here in Direction classes provide individual attention to every student and encourage
+					them to ask questions and learn themselves.</p>
+                </div>
+            </div> <!-- end section-header -->
+
+        </div> <!-- end intro-wrap -->
+
+        <!--<div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    <img src="images/portfolio/lady-shutterbug.jpg" 
+                                         srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Shutterbug
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Branding
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                   <!-- <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                    <img src="images/portfolio/woodcraft.jpg" 
+                                         srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Woodcraft
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Design
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+    
+                    <!--<div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                    <img src="images/portfolio/the-beetle.jpg"
+                                         srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    The Beetle
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Development
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+    
+                    <!--<div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                    <img src="images/portfolio/grow-green.jpg" 
+                                         srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Grow Green
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Branding
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <!--<div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                    <img src="images/portfolio/guitarist.jpg" 
+                                         srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Guitarist
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Design
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+    
+                    <!--<div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                    <img src="images/portfolio/palmeira.jpg"
+                                         srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Palmeira
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Design
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                </div> <!-- end masonry -->
+            </div> <!-- end col-full -->
+			<br /><br /><center><div class="btn btn-success btn-block" style="width:600px; height:50px; font-size:24px;background:#2AB200;" id="enquireTestimonials1"><a href="https://api.whatsapp.com/send?phone=919987758132&text=I%27m%20interested%20in%20Free%20Demo" style="color:white; text-decoration:none;" id="testimonialBtn"><img src="images/whatsapp.JPG" height="40">Connect With Us</a></div></center><br /><br /><br />
+        </div> --> <!-- end works-content --> 
+
+    </section>  <!-- end s-works --> 
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Our students</h3>
+                <h1 class="display-2">DC has been honored with these 
+					students</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row clients-outer" data-aos="fade-up">
+            <div class="col-full">
+                <center> <div class="clients">
+                    
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/bhusan.jpg" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/vikram.jpg" /></a>
+                  
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/sakshi.jpg" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/vidit.jpg" /></a>
+                    
+                     
+                </div> <!-- end clients -->
+				</center>
+            </div> <!-- end col-full -->
+			<div class="testimonials__info">
+                            <span class="testimonials__name" style="color:black">"My daughter Sakshi's was very worried because it was december and 
+							still she haven't completed her syllabus for her board exams. We searched for a coaching classes,
+							and enrolled her in Direction Classes. Within 90 days the trainers gave their best by giving her 
+							personal attention and using best methods to teach her. With her hard work and dedication 
+							and our direction she scored 92% in her board exams."</span> 
+                            <!--<span class="testimonials__pos"></span>-->
+                        </div>
+			
+			
+        </div> <!-- end clients-outer -->
+		
+		
+        <div class="row clients-testimonials" data-aos="fade-up">
+            <div class="col-full">
+                <div class="testimonials">
+
+                    <div class="testimonials__slide">
+
+                        <p>Methodology : <br>
+
+							We have a team of well experienced and highly qualified Cambridge Certified  teachers who are dedicated to their profession.<br>
+							We have Unique Techniques for fundamental clearing ,Focus on basics for the Overall development of student  which should be the primary focus of a teacher.<br>
+							We try Teaching through Digital aids so that we can make things easy and fun in learning a concept of a subject.<br>
+							We give Live examples so that we can make things clear in minds of a students and they can relate well to a topic and study well .<br>
+							And we provide Exhaustive test series & Practice sessions for better results of the students making them perfect in each and every scope of a subject.
+ </p>
+
+                        <!--<img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">-->
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">"Bonus : Come with your 5 friends and get 10% discount."</span> 
+                            <!--<span class="testimonials__pos"></span>-->
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+                        
+                        <p>Subjects:<br> <br>
+Group 						I: Languages<br>
+Group 						II: Humanities and Social Sciences<br>
+Group 						III: Sciences<br>
+Group 						IV: Mathematics<br>
+Group 						V: Creative, Technical and Vocational</p>
+
+                        <img src="images/avatars/nikita.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Nikita Shrivastava</span> 
+                            <span class="testimonials__pos">BE (IT)<br>Professionally trained cambridge tutor</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+                        
+                        <p>!!TestSeries!! <br><br>
+							*Chapterwise worksheets<br>
+							*Chapterwise Past board questions worksheets. <br>
+							*Sample Board Pattern Papers  <br>
+							*Discussion of the correct answers,right approach.<br>
+							*We discuss the corrections individually with the student and explain them the correct steps, methods and logic.<br> 
+							*Personal discussion on the area of improvement with the student.  <br>
+							*Regular updates and feedback to the parents. <br><br> 
+							!!CrashCourse!!<br><br>
+							*We cover Keypoints and important topics for board exam.Chapterwise worksheets<br>
+							*Small batch size to ensure personalised attention.( Get out of the crowded classrooms) <br>
+							*We Build your fundamentals and basic concepts with extensive test Series for better results. <br> 
+							Last opportunity to score in Board Exams!!!</p>
+
+                        <img src="images/avatars/subodh.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Subodh</span> 
+                            <span class="testimonials__pos">BE (ETNT)<br>Professionally trained cambridge tutor</span>
+                        </div>
+
+                    </div>
+
+                </div><!-- end testimonials -->
+                
+            </div> <!-- end col-full -->
+        </div> <!-- end client-testimonials -->
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display-2 display-2--light">Register for free demo</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+            
+            <div class="contact-primary">
+
+                <h3 class="h6">Send Us A Message</h3>
+
+                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width" style="color:white">
+                    </div>
+                    <div class="form-field" style="color:white">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+				<h3>come in group of 5 and get 10% discount</h3>
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+
+            </div> <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5>Where to Find Us</h5>
+                        <p>
+                            * Direction Classes SHOP NO-40,
+							MAYURESH SHRISHTI,OPPOSITE ASIAN PAINTS,
+							LBS ROAD,BHANDUP (WEST) Mumbai (M.H) <br>
+							* Direction Classes SHOP NO. UG-49, Dreams Mall Bhandup (W), Mumbai (M.H).<br>
+							* Direction Classes C-wing Shop No. 18 , Golden Willows, Veena Nagar Mulund, Mumbai (M.H) 
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Email Us At</h5>
+                        <p>
+                            directionclassesmumbai@gmail.com <br>
+							http://directionclasses.com/
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Call Us At</h5>
+                        <p>
+                            Phone: +919987758132
+                            
+                        </p>
+                    </div>
+
+                    <ul class="contact-social">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                        </li>
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="row footer-main">
+
+            <div class="col-six tab-full left footer-desc">
+
+                <div class=""></div>
+                
+            </div>
+
+            <div class="col-six tab-full right footer-subscribe">
+
+                <h4>Come in a group of 5 and get 10% discount</h4>
+                
+
+                <div class="subscribe-form">
+                    <form id="mc-form" class="group" novalidate="true">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" value="Subscribe">
+                        <label for="mc-email" class="subscribe-message"></label>
+                    </form>
+                </div>
+
+            </div>
+
+        </div> <!-- end footer-main -->
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Direction Classes 2016 All Right Reserved. By NB Digital Technologies</span> 
+                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

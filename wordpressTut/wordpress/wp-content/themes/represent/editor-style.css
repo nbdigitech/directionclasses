@@ -1,0 +1,41 @@
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+h4 {
+  font-size: 1.5rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+/*-----block quote-----*/
+.wp-block-quote {
+
+  background-color: #f6f6f6;
+  text-align: center;
+  position: relative;
+  padding: 50px 30px 40px;
+  border-left: 4px solid #cdbd9d;
+  position: relative;
+}
+.wp-block-quote:after {
+content: '\f10e';
+  font-family: FontAwesome;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #cdbd9d);
+  color: rgba(0,0,0,0.3);
+  padding: 20px;
+  border-bottom-left-radius: 100%;
+
+}

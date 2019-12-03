@@ -1,0 +1,101 @@
+.form-control {
+    @each $prefix in $prefixes {
+        #{$prefix}border-radius: borderRadius(0);
+    }
+
+    border-radius: borderRadius(0);
+
+    @each $prefix in $prefixes {
+        #{$prefix}box-shadow: none;
+    }
+
+    box-shadow: none;
+
+    &::placeholder {
+        color: #8a8a8a;
+    }
+
+    &:focus {
+        border-color: #CCC;
+
+        @each $prefix in $prefixes {
+            #{$prefix}box-shadow: none;
+        }
+
+        box-shadow: none;
+    }
+}
+
+.full-contact input, .quick-contact input.wpcf7-text, .full-contact textarea, .quick-contact textarea.wpcf7-textarea {
+    font-family: var(--font-family-sans);
+    background-color: #f6f6f6;
+    width: 100%;
+    border: 2px solid transparent;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    -ms-transition: all 200ms;
+    transition: all 200ms;
+
+    &:hover {
+        border: 2px solid var(--color-primary);
+    }
+
+    @each $prefix in $prefixes {
+        #{$prefix}border-radius: 0;
+    }
+
+    font-style: normal;
+    font-size: 13px;
+    border-radius: 0;
+    padding: 16px 34px;
+    margin-bottom: 17px;
+    color: #8a8a8a;
+
+    &::placeholder {
+        color: #8a8a8a;
+    }
+
+    &:focus {
+        color: #333;
+    }
+}
+
+.quick-contact input.wpcf7-text, .quick-contact textarea.wpcf7-textarea {
+    width: 97%;
+    -webkit-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.13);
+    background-color: #dae0e4;
+}
+
+.quick-contact input.wpcf7-submit, .full-contact input.wpcf7-submit {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #484250;
+    padding: 15px 76px;
+    border-radius: 0;
+    width: 100%;
+    margin: 0;
+    border: none;
+
+    &:hover {
+        background-color: var(--color-primary);
+    }
+}
+
+.quick-contact input.wpcf7-submit {
+    padding: 15px 76px;
+    -webkit-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.13);
+}
+
+#srm_gmp_embed_1 {
+    @each $prefix in $prefixes {
+        #{$prefix}border-radius: 25px;
+    }
+
+    border-radius: 25px;
+}

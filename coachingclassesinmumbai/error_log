@@ -1,0 +1,9 @@
+[31-Jan-2019 01:42:34 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'direceye_wp2.contact' doesn't exist in /home1/direceye/public_html/dc_lp1/process.php:28
+Stack trace:
+#0 /home1/direceye/public_html/dc_lp1/process.php(28): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/direceye/public_html/dc_lp1/process.php on line 28
+[31-Jan-2019 02:46:50 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home1/direceye/public_html/dc_lp1/process.php on line 113
+[31-Jan-2019 03:06:32 America/Chicago] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home1/direceye/public_html/dc_lp1/process.php on line 33
+[06-Feb-2019 07:41:39 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/direceye/public_html/coachingclassesinmumbai/process.php:1) in /home1/direceye/public_html/coachingclassesinmumbai/process.php on line 113
+[06-Feb-2019 07:44:54 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in /home1/direceye/public_html/coachingclassesinmumbai/process.php on line 115

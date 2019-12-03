@@ -1,0 +1,134 @@
+.fixedheight {
+    height: 458px;
+     @include media-breakpoint-only(xs) {
+            height: auto;
+        }
+}
+
+.team-members {
+    &.team-style1 {
+        position: relative;
+        overflow: hidden;
+
+        img {
+            transition: all 0.3s ease-out 0s;
+        }
+
+        &:hover {
+            img {
+                transform: rotate(-5deg) scale(1.2);
+            }
+        }
+
+        &:before {
+            content: "";
+            background-image: -moz-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+            background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+            background-image: -ms-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+            -webkit-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.06);
+            -moz-box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.06);
+            box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.06);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 3;
+        }
+
+        .team-info {
+            .name, .job {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-align: center;
+            }
+
+            .name {
+                color: #fff;
+                font-weight: 600;
+            }
+
+            .job {
+                color: #b3b3b3;
+            }
+
+            position: absolute;
+            left: 0;
+            bottom: 45px;
+            width: 100%;
+            height: 100px;
+            z-index: 4;
+
+            ul {
+                list-style-type: none;
+                width: 100%;
+                text-align: center;
+                margin-left: 0;
+
+                li {
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    &.team-style2 {
+        position: absolute;
+        z-index: 99;
+        height: 398px;
+        &:hover{
+            @each $prefix in $prefixes {
+            #{$prefix}box-shadow: 0 25px 72px -22px rgba(0, 0, 0, 0.25);;
+        }
+        box-shadow: 0 25px 72px -22px rgba(0, 0, 0, 0.25);
+        }
+
+        @include media-breakpoint-only(xs) {
+            position: relative;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+
+        img {
+            width: 100%;
+        }
+
+        .team-info {
+            background-color: #fff;
+            padding: 20px;
+            position: relative;
+
+            .name, .job {
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-align: center;
+            }
+
+            .name {
+                color: #222;
+                font-weight: 600;
+            }
+
+            .job {
+                color: #b3b3b3;
+            }
+
+            width: 100%;
+
+            ul {
+                list-style-type: none;
+                width: 100%;
+                text-align: center;
+                margin-left: 0;
+                display: none;
+
+                li {
+                    display: inline-block;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

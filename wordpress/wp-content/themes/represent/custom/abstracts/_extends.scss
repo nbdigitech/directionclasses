@@ -1,0 +1,14 @@
+/* Extends Classes */
+
+%transition {
+    @each $prefix in $prefixes {
+        #{$prefix}transition: all .5s ease-in-out;
+    }
+    transition: all .5s ease-in-out;
+}
+%cover {
+    @each $prefix in $prefixes {
+        #{$prefix}background-size: cover;
+    }
+    background-size: cover;
+}

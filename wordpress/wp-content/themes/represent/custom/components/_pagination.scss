@@ -1,0 +1,40 @@
+.pagination, .page-links, .page-pagination {
+          margin: 30px 0;
+          text-align: center;
+          width: 100%;
+           @include media-breakpoint-down(md){
+     margin: 58px 0;
+    }
+    .page-numbers {
+    padding: 16px 23px;
+    margin-right: 5px;
+    color: #333;
+    font-weight: 500;
+    border: 0;
+    float: none;
+    @include media-breakpoint-down(md){
+    padding: 8px 14px;
+    }
+
+      &[aria-label] {
+        background-color: #34495e;
+        color: #FFF;
+      }
+      &:hover {
+        background-color: var(--color-primary);
+        color: #FFF;
+      }
+    }
+  .current {
+    background-color: var(--color-primary);
+    color: #FFF;
+  }
+    &:last-child {
+      padding-right: 0;
+    }
+
+}
+.page-pagination > span.page-numbers{
+    background-color: var(--color-primary);
+    color: #FFF;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc> https://www.directionclasses.com/ </loc>
+<lastmod> 2019-04-30</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc> https://www.directionclasses.com/About </loc>
+<lastmod>2019-04-30</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://www.directionclasses.com/Course</loc>
+<lastmod>2019-04-30</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc> https://www.directionclasses.com/ParentTestimonial </loc>
+<lastmod>2019-04-30</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc> https://www.directionclasses.com/FAQ</loc>
+<lastmod>2019-04-30</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc> https://www.directionclasses.com/Social-Media</loc>
+<lastmod>2019-04-30</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc> https://www.directionclasses.com/Contact </loc>
+<lastmod>2019-04-30</lastmod>
+<priority>0.80</priority>
+</url>
+</urlset>
