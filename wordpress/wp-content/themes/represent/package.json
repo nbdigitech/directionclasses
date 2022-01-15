@@ -74,7 +74,7 @@
     "node-sass": "^4.11.0",
     "postcss-cli": "^2.6.0",
     "postcss-flexbugs-fixes": "^2.1.0",
-    "shelljs": "^0.7.5",
+    "shelljs": "^0.8.5",
     "shx": "^0.2.1",
     "time-grunt": "^1.4.0",
     "uglify-js": "^2.7.5"
