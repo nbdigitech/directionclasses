@@ -71,7 +71,7 @@
     "htmlhint": "^0.10.1",
     "is-travis": "^1.0.0",
     "load-grunt-tasks": "^3.5.2",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "postcss-cli": "^2.6.0",
     "postcss-flexbugs-fixes": "^2.1.0",
     "shelljs": "^0.7.5",
